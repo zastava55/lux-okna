@@ -1,5 +1,10 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #000; }
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
 /*# sourceMappingURL=style.css.map */
