@@ -1,0 +1,24 @@
+body {
+  font-family: 'Proxima Nova Light', sans-serif;
+  color: #7b7b79;
+}
+
+.button-o {
+  border: 2px solid #507fe1;
+  padding: 17px 22px;
+  font-size: 12px;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  color: #507fe1;
+  text-transform: uppercase;
+}
+
+.button {
+  border: none;
+  text-transform: uppercase;
+  padding: 25px 45px;
+  background-color: #507fe1;
+  color: #ffffff;
+  font-family: 'Proxima Nova Semibold', sans-serif;
+  font-weight: bold;
+}
+/*# sourceMappingURL=interface.css.map */
