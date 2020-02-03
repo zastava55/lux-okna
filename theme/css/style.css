@@ -26,6 +26,7 @@ body {
   font-family: 'Proxima Nova Semibold', sans-serif;
   color: #507fe1;
   text-transform: uppercase;
+  background-color: #dcf1e0;
 }
 
 .button {
@@ -46,6 +47,25 @@ body {
 .container {
   max-width: 1170px;
   margin: auto;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 30px;
+  }
 }
 
 .navbar {
@@ -168,6 +188,27 @@ body {
   font-size: 14px;
 }
 
+@media (max-width: 991px) {
+  .navbar__mobile, .navbar__landline {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .button-o {
+    display: none;
+  }
+  .menu__nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu__link {
+    margin-bottom: 10px;
+  }
+}
+
 .hero {
   height: 459px;
   background: #ffffff url("../img/llogo.png") no-repeat;
@@ -191,5 +232,11 @@ body {
   font-weight: 900;
   color: #f08383;
   text-shadow: 0 0 1px black;
+}
+
+@media (max-width: 991px) {
+  .hero {
+    background-size: cover;
+  }
 }
 /*# sourceMappingURL=style.css.map */
