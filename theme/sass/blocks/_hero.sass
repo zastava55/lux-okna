@@ -6,6 +6,9 @@
   padding-top: 120px
   padding-bottom: 270px
   margin-top: 80px
+  img 
+    width: 100%
+    height: auto
   &__title
     font-size: 30px
     margin-bottom: 40px
@@ -17,6 +20,32 @@
     font-weight: 900
     color: #f08383
     text-shadow: 0 0 1px black
-@media (max-width: 991px)
+@media (max-width: 550px)
   .hero
-    background-size: cover
+    margin-top: 80px
+    padding-top: 0px
+    padding-bottom: 0px
+    background-size: cover 25%
+    background-position: center
+    .hero__title
+      padding: 0
+      margin: 0
+    .hero__subtitle
+      padding: 0
+    .hero__button
+      margin-top: 190px
+@media (max-width: 321px)
+  .hero
+    margin-top: 90px
+    padding-top: 0px
+    padding-bottom: 0px
+    background-size: cover 25%
+    background-position: center
+    text-align: center
+    .hero__title
+      padding: 0
+      margin: 0
+    .hero__subtitle
+      padding: 0
+    .hero__button
+      margin-top: 190px
